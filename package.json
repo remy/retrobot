@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "tap test/*.test.js",
-    "start": "node lib",
+    "start": "node lib"
   },
   "keywords": [
     "slack",
