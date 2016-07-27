@@ -57,6 +57,14 @@ Once the retro is over, in the group channel stop the retrospective:
 
 The retrobot will then print out a shuffled list of all the worked well, and needs work items. Each item can be voted on using then 👍 emoji, and the group can use this to decide how to create action items out of the retrospective.
 
+If you want a quick summary of the "needs work" items with the most 👍 counts, run:
+
+```text
+> @retrobot: summary
+```
+
+The retrobot will echo out the top 3 most 👍'd items from the "needs work" list.
+
 ### Auto ending the retrospective
 
 You can set an auto-end for the retrospective using an argument to the `start` command. The supported shorthand is a number, then `s` for seconds, `m` for minutes. For example, the following will auto end the retrospective after 10 minutes:

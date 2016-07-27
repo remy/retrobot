@@ -22,7 +22,7 @@
   "dependencies": {
     "clarify": "^1.0.5",
     "debug": "^2.2.0",
-    "slack": "^7.0.0",
+    "slack": "^7.5.7",
     "undefsafe": "^1.1.0"
   },
   "devDependencies": {
