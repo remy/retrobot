@@ -49,5 +49,4 @@ The retrobot will then print out a shuffled list of all the worked well, and nee
 
 ## Current limitations
 
-- It doesn't respect DND settings, if you're in the channel, you'll be invited
 - Editing and deleting an item isn't supported (only the old message is seen)
