@@ -1,6 +1,6 @@
 # Retrobot
 
-A retrospective bot for Slack (inspired by [@PebbleKet's retrobot](https://github.com/PebbleKat/retrobot) 💙).
+A retrospective bot for Slack (inspired by [@PebbleKat's retrobot](https://github.com/PebbleKat/retrobot) 💙).
 
 The bot will record anonymous retrospective feedback and then display in a group channel in a random order.
 
