@@ -60,7 +60,7 @@ You can set an auto-end for the retrospective using an argument to the `start` c
 
 If you want a little fun with the retrobot, you can set some simple responses to specific queries. The retrobot will read the environment for keys starting with `SAY_` and use the use the value as an alias.
 
-For example, if there is an environment value of `SAY_HEY='Hey there yourself :wave:', then the retrobot can respond as such:
+For example, if there is an environment value of `SAY_HEY='Hey there yourself :wave:'`, then the retrobot can respond as such:
 
 ```text
 > @retrobot hey
