@@ -95,5 +95,4 @@ $ heroku config:set SAY_HEY='Hey there yourself :wave'
 
 ## Notes
 
-- Editing and deleting an item isn't supported (only the old message is seen)
 - Retrobot will not invite users who are away or have an active do not disturb mode enabled
