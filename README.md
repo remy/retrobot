@@ -47,6 +47,29 @@ Once the retro is over, in the group channel stop the retrospective:
 
 The retrobot will then print out a shuffled list of all the worked well, and needs work items. Each item can be voted on using then 👍 emoji, and the group can use this to decide how to create action items out of the retrospective.
 
-## Current limitations
+### Auto ending the retrospective
+
+You can set an auto-end for the retrospective using an argument to the `start` command. The supported shorthand is a number, then `s` for seconds, `m` for minutes. For example, the following will auto end the retrospective after 10 minutes:
+
+```text
+> @retrobot start 10m
+< 🔔 Retrospective is now recording, and will auto end in 10s
+```
+
+### Custom responses
+
+If you want a little fun with the retrobot, you can set some simple responses to specific queries. The retrobot will read the environment for keys starting with `SAY_` and use the use the value as an alias.
+
+For example, if there is an environment value of `SAY_HEY='Hey there yourself :wave:', then the retrobot can respond as such:
+
+```text
+> @retrobot hey
+< Hey there yourself 👋
+```
+
+Everything after `SAY_` is set to lowercase and only the first word relpied to the retrobot is used in the lookup.
+
+## Notes
 
 - Editing and deleting an item isn't supported (only the old message is seen)
+- Retrobot will not invite users who are away or have an active do not disturb mode enabled
