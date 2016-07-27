@@ -12,7 +12,7 @@
   "env": {
     "SLACK_TOKEN": {
       "description": "The Slack API token for your bot",
-      "value": "",
+      "value": ""
     }
   },
   "formation": {
