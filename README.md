@@ -4,7 +4,17 @@ A retrospective bot for Slack (inspired by [@PebbleKat's retrobot](https://githu
 
 The bot will record anonymous retrospective feedback and then display in a group channel in a random order.
 
-## Install and deploy
+## Prerequisites
+
+Before creating the retrobot, you need to [create a new Slack bot](https://my.slack.com/services/new/bot) and record your API token. You can, if you like, also use the [retrobot](https://github.com/remy/retrobot/blob/master/icon.png) image as your avatar for your bot.
+
+## The quick way
+
+You can use the Heroku button below, and add the API token for the bot you created earlier:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/remy/retrobot)
+
+## Manual install and deploy
 
 Heroku is the simplest deploy target. You will need a Slack Bot token.
 
@@ -68,6 +78,12 @@ For example, if there is an environment value of `SAY_HEY='Hey there yourself :w
 ```
 
 Everything after `SAY_` is set to lowercase and only the first word relpied to the retrobot is used in the lookup.
+
+If you're using Heroku CLI, then to add a new value, use the following:
+
+```text
+$ heroku config:set SAY_HEY='Hey there yourself :wave'
+```
 
 ## Notes
 
