@@ -71,7 +71,7 @@ You can set an auto-end for the retrospective using an argument to the `start` c
 
 ```text
 > @retrobot start 10m
-< 🔔 Retrospective is now recording, and will auto end in 10s
+< 🔔 Retrospective is now recording, and will auto end in 10m
 ```
 
 ### Custom responses
