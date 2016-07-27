@@ -1,0 +1,29 @@
+{
+  "name": "Retrobot",
+  "description": "Slack bot for retrospectives",
+  "keywords": [
+    "slack",
+    "bot",
+    "retro",
+    "retrospective"
+  ],
+  "repository": "https://github.com/remy/retrobot",
+  "logo": "https://github.com/remy/retrobot/raw/master/icon.png",
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "The Slack API token for your bot",
+      "value": "",
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 0,
+      "size": "free"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "image": "heroku/nodejs"
+}
