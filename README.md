@@ -16,14 +16,13 @@ You can use the Heroku button below, and add the API token for the bot you creat
 
 ## Manual install and deploy
 
-Heroku is the simplest deploy target. You will need a Slack Bot token.
+Using node 6, you can manually run the retrobot using the following commands:
 
 ```bash
-$ git clone https://github.com/remy/retrobot.git retrobot
+$ git clone https://github.com/remy/retrobot.git
 $ cd retrobot
-$ heroku create
-$ heroku config:set SLACK_TOKEN=<YOUR-SLACK-TOKEN>
-$ git push heroku master
+$ npm install
+$ npm start
 ```
 
 The bot should then join your Slack group.
