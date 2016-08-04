@@ -6,7 +6,7 @@ The bot will record retrospective feedback (via DMs) and then display in a group
 
 ## Prerequisites
 
-Before creating the retrobot, you need to [create a new Slack bot](https://my.slack.com/services/new/bot) and record your API token. You can, if you like, also use the [retrobot](https://github.com/remy/retrobot/blob/master/icon.png) image as your avatar for your bot.
+Before creating the retrobot, you need to [create a new Slack bot](https://my.slack.com/services/new/bot) and record your API token. I'd recommend using one of the [🤖 emojis](http://emojipedia.org/robot-face), or you can, if you like, also use the [retrobot](https://github.com/remy/retrobot/blob/master/icon.png) image as your avatar for your bot.
 
 ## The quick way
 
