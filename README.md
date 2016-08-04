@@ -1,4 +1,4 @@
-# Retrobot
+# 🤖 Retrobot
 
 A retrospective bot for Slack (inspired by [@PebbleKat's retrobot](https://github.com/PebbleKat/retrobot) 💙).
 
