@@ -22,7 +22,7 @@ Using node 6, you can manually run the retrobot using the following commands:
 $ git clone https://github.com/remy/retrobot.git
 $ cd retrobot
 $ npm install
-$ npm start
+$ SLACK_TOKEN=XXXXXXXXX npm start
 ```
 
 The bot should then join your Slack group.
