@@ -12,7 +12,7 @@ Before creating the retrobot, you need to [create a new Slack bot](https://my.sl
 
 You can use the Heroku button below, and add the API token for the bot you created earlier:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/remy/retrobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/marvelapp/retrobot)
 
 ## Manual install and deploy
 
