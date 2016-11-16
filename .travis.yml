@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - "6"
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./scripts/travis_after_success.sh
+  on:
+    all_branches: true
+branches:
+  only:
+   - master
+   - develop
