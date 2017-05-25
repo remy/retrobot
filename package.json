@@ -1,6 +1,5 @@
 {
-  "name": "retrobot",
-  "version": "1.0.0",
+  "name": "@snyk/retrobot",
   "main": "lib/index.js",
   "engines": {
     "node": 6
@@ -37,5 +36,6 @@
     "tap-only": "0.0.5"
   },
   "description": "Slack bot for retrospectives",
-  "snyk": true
+  "snyk": true,
+  "private": true
 }
