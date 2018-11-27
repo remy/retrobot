@@ -23,7 +23,7 @@
   "dependencies": {
     "clarify": "^1.0.5",
     "debug": "^2.2.0",
-    "slack": "^11.0.0",
+    "slack": "^8.0.0",
     "undefsafe": "^1.1.0",
     "snyk": "^1.30.1"
   },
