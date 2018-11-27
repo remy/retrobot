@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6
+FROM node:10-slim
 
 # File Author / Maintainer
 MAINTAINER Snyk Ltd
