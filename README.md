@@ -89,7 +89,7 @@ Everything after `SAY_` is set to lowercase and only the first word relpied to t
 If you're using Heroku CLI, then to add a new value, use the following:
 
 ```text
-$ heroku config:set SAY_HEY='Hey there yourself :wave'
+$ heroku config:set SAY_HEY='Hey there yourself :wave:'
 ```
 
 ## Notes
