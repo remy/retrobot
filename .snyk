@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.13.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:ms:20170412':
@@ -9,4 +9,8 @@ ignore:
     - undefsafe > debug > ms:
         reason: None given
         expires: '2017-06-15T18:12:37.422Z'
+  'npm:tiny-json-http:20180214':
+    - slack > tiny-json-http:
+        reason: Needs time invested to fix breaking changes
+        expires: '2019-06-19T10:28:54.248Z'
 patch: {}
