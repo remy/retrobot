@@ -24,7 +24,7 @@
     "clarify": "^1.0.5",
     "debug": "^2.2.0",
     "slack": "^8.4.2",
-    "snyk": "^1.251.0",
+    "snyk": "1.251.1",
     "undefsafe": "^1.1.0"
   },
   "devDependencies": {
