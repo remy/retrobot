@@ -6,9 +6,7 @@
   },
   "scripts": {
     "test": "tap test/*.test.js",
-    "start": "node lib",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "start": "node lib"
   },
   "keywords": [
     "slack",
@@ -24,7 +22,6 @@
     "clarify": "^1.0.5",
     "debug": "^2.2.0",
     "slack": "^8.4.2",
-    "snyk": "1.251.1",
     "undefsafe": "^1.1.0"
   },
   "devDependencies": {
@@ -36,6 +33,5 @@
     "tap-only": "0.0.5"
   },
   "description": "Slack bot for retrospectives",
-  "snyk": true,
   "private": true
 }
