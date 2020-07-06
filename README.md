@@ -84,7 +84,7 @@ For example, if there is an environment value of `SAY_HEY='Hey there yourself :w
 < Hey there yourself 👋
 ```
 
-Everything after `SAY_` is set to lowercase and only the first word relpied to the retrobot is used in the lookup.
+Everything after `SAY_` is set to lowercase and only the first word replied to the retrobot is used in the lookup.
 
 If you're using Heroku CLI, then to add a new value, use the following:
 
